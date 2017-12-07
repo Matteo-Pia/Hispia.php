@@ -169,16 +169,22 @@
 						</td>
 						<td width="50%">
 							<div class="form-row">
-								<div class="form-group col-md-9">
-									<label for="inputCode">Codice Ricetta
+								<div class="form-group col-md-4">
+									<label for="inputCode">Codice impegnativa
 									</label>
 									<input type="text" class="form-control" id="inputCode" placeholder="Inserisci il codice" required>
 								</div>
+								<div class="col-md-5">
+					<label for="ImpDate" class=" control-label">
+						Data dell'impegnativa
+					</label>
+					<input type="date" id="ImpDate" class="form-control" required>
+				</div>
 							</div>
 							<div class="form-row"> 
 								<div class="form-group col-md-9">
 									<label for="FormControlTextarea1">Quesito diagnostico</label>
-									<textarea class="form-control" id="FormControlTextarea1" rows="3" placeholder="Inserisci il quesito" required></textarea>
+									<textarea class="form-control" id="FormControlTextarea1" rows="3" placeholder="Inserisci il quesito sull' impegnativa" required></textarea>
 								</div>
 							</div>
 

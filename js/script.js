@@ -15,3 +15,18 @@
 	}, false);
 })();
 
+
+    $(document).ready(function () {
+        $('.addel').addel({
+            events: {
+                added: function (event) {
+                    console.log('Added ' + event.added.length);
+                }
+            }
+        }).on('addel:delete', function (event) {
+            if (!window.confirm('Conferma di voler eliminare la selezione ' + '"' + event.target.find(':input').val() + '"?')) {
+                console.log('Deletion prevented!');
+                event.preventDefault();
+            }
+        });
+    });

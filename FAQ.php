@@ -23,6 +23,35 @@
 	Se non dovessi trovare la risposta che cerchi usa pure la sezione <a href="contatti.php">contatti</a> </section> 
 
 	<div id="accordion" role="tablist" class="section1  mt-4">
+     <div class="card">
+    <div class="card-header" role="tab" id="headingfive">
+      <h5 class="mb-0">
+        <a class="collapsed" data-toggle="collapse" href="#collapsefive" aria-expanded="false" aria-controls="collapseThree">
+         Ho un problemone.
+        </a>
+      </h5>
+    </div>
+    <div id="collapsefive" class="collapse" role="tabpanel" aria-labelledby="headingfive" data-parent="#accordion">
+      <div class="card-body">
+       Risolvone.
+      </div>
+    </div>
+  </div>
+   <div class="card">
+    <div class="card-header" role="tab" id="headingsix">
+      <h5 class="mb-0">
+        <a class="collapsed" data-toggle="collapse" href="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
+         Ho un problemissimo.
+        </a>
+      </h5>
+    </div>
+    <div id="collapsesix" class="collapse" role="tabpanel" aria-labelledby="headingsix" data-parent="#accordion">
+      <div class="card-body">
+       Soluzionissima.
+      </div>
+    </div>
+  </div>
+     
   <div class="card">
     <div class="card-header" role="tab" id="headingOne">
       <h5 class="mb-0">
@@ -42,13 +71,13 @@
     <div class="card-header" role="tab" id="headingTwo">
       <h5 class="mb-0">
         <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          Come faccio a fare l'altro?
+          Come faccio a fare quello?
         </a>
       </h5>
     </div>
     <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
       <div class="card-body">
-        Basta essere in possesso di questo e quello e recarti presso quel luogo lì.<br>
+        Basta essere in possesso di questo e recarti presso quel luogo.<br>
         Se non conosci il luogo più vicino a te fatti aiutare da uno bravo in questo tipo di cose.
       </div>
     </div>
@@ -77,25 +106,12 @@
     </div>
     <div id="collapsefour" class="collapse" role="tabpanel" aria-labelledby="headingfour" data-parent="#accordion">
       <div class="card-body">
-       No. Però smettila.
+       No. Però basta.
       </div>
     </div>
   </div>
-  <div class="card">
-    <div class="card-header" role="tab" id="headingfive">
-      <h5 class="mb-0">
-        <a class="collapsed" data-toggle="collapse" href="#collapsefive" aria-expanded="false" aria-controls="collapseThree">
-          Ok, ciao.
-        </a>
-      </h5>
-    </div>
-    <div id="collapsefive" class="collapse" role="tabpanel" aria-labelledby="headingfive" data-parent="#accordion">
-      <div class="card-body">
-       Ciao.
-      </div>
-    </div>
-  </div>
-</div>
+ 
+ </div>
 <?php include('script.php'); ?>
 
 </body>

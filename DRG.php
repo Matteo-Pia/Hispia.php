@@ -122,6 +122,17 @@
 		<div class="container col-md-8 justify-content-md-center mt-3">
 			<div class="form-row justify-content-between">
 				<div class="form-group">
+					<label for="DiagnosiList00">Diagnosi Primaria</label>
+
+				</div>
+				<div class="col-md-9">
+					<select class="form-control" id="DiagnosiList00" required >
+						<?php include ('Diagnosi.php') ?>
+					</select>
+				</div>
+			</div>
+			<div class="form-row justify-content-between">
+				<div class="form-group">
 					<label for="DiagnosiList01">Diagnosi Secondarie</label>
 
 				</div>
@@ -142,12 +153,7 @@
 					<select class="form-control" id="DiagnosiList03">
 						<?php include ('Diagnosi.php') ?>
 					</select>
-				</div>
-				<div class="col-md-9 mt-2">
-					<select class="form-control" id="DiagnosiList04">
-						<?php include ('Diagnosi.php') ?>
-					</select>
-				</div>
+				</div>				
 			</div>
 		</div>
 		<div class="container col-md-8 justify-content-md-center mt-3">
@@ -158,7 +164,7 @@
 				</div>
 				<div class="col-md-9">
 					<select class="form-control" id="TratmentList00" >
-						<?php include ('fillerlist.php') ?>
+						<?php include ('procedure.php') ?>
 					</select>
 				</div>
 			</div>
@@ -166,21 +172,26 @@
 
 				<div class="col-md-9">
 					<select class="form-control" id="TratmentList01">
-						<?php include ('fillerlist.php') ?>
+						<?php include ('procedure.php') ?>
 					</select>
 				</div>
 				<div class="col-md-9 mt-2">
 					<select class="form-control" id="TratmentList02" >
-						<?php include ('fillerlist.php') ?>
+						<?php include ('procedure.php') ?>
 					</select>
 				</div>
 				<div class="col-md-9 mt-2">
 					<select class="form-control" id="TratmentList03" >
-						<?php include ('fillerlist.php') ?>
+						<?php include ('procedure.php') ?>
 					</select>
 				</div>
 			</div>
 		</div>
+	</div>
+	
+
+
+				
 		<div class="container col-md-8 justify-content-md-center mt-3">
 			<div class="form-row justify-content-center"> <button type="submit" class="btn btn-primary btn-lg btn-block">Procedi con il DRG</button></div>
 		</div>

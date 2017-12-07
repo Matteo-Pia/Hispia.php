@@ -1,4 +1,4 @@
-<option value="" selected disabled>scegli...</option>
+<option value="" selected disabled>scegli la diagnosi...</option>
 <option value="	001	">	Colera	</option>
 <option value="	0010	">	Colera da Vibrio cholerae	</option>
 <option value="	0011	">	Colera da Vibrio cholerae el tor	</option>

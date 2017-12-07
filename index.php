@@ -23,7 +23,7 @@
 	<section class="section1 tt1 mt-4"> Benvenuto su <a href="http:\\Hispia.ga">Hispia.ga</a>, il Sistema informativo ospedaliero che ti guiderà durante la navigazione.<br>
 		In questo sito potrai prenotare, gestire e visualizzare tutti i tuoi record clinici in modo facile e intuitivo.<br>
 		Questa piattaforma è utilizzabile sia dai cittadini che dagli operatori sanitari; se non disponi delle credenziali di accesso all'area amministrativa alcune funzionalità risulteranno disabilitate. <br>
-		Se dovessi riscontrare dei problemi o avere dubbi non esitare a contattarci attraverso la sezione <a href="#">contatti</a> </section> 
+		Se dovessi riscontrare dei problemi o avere dubbi non esitare a contattarci attraverso la sezione <a href="contatti.php">contatti</a> </section> 
 
 
 
