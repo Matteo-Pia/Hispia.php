@@ -24,10 +24,7 @@
 	<?php include('navbar.php'); ?>
 
 
-	<section class=" section1 tt1 mt-4"> Benvenuto su <a href="http:\\Hispia.ga">Hispia.ga</a>, il Sistema informativo ospedaliero che ti guiderà durante la navigazione.<br>
-		In questo sito potrai potrai prenotare, gestire e visualizzare tutti i tuoi record clinici in modo facile e intuitivo.<br>
-		Questa piattaforma è dedicata sia ai cittadini che agli operatori sanitari, se non disponi delle credenziali di accesso all'area amministrativa alcune funzionalità risulteranno disabilitate. <br>
-		Se dovessi riscontrare dei problemi o avere dubbi non esitare a contattarci attraverso la sezione <a href="#">contatti</a> </section> 
+	<section class=" section1 tt1 mt-4">La compilazione di questo modulo in tutte le sue parti è necessaria per la dimissione di un paziente ricoverato presso la struttura. È necessaria almeno una diagnosi per poter inviare il modulo, se necessario si possono aggiungere ulteriori diagnosi secondarie premendo sul bottone verde. Il codice della struttura di dimissione è preimpostato e necessita delle credenziali di un amministratore di sisteme per essere modificato.</a> </section> 
 
 
 
@@ -91,17 +88,56 @@
 						</label>
 						<input type="date" id="birthDate" class="form-control" required>
 					</div>
+				<div class="col-md-2">
+					<label for="validationCustom03">Nato a
+					</label>
+					<input type="text" class="form-control" id="validationCustom03" placeholder="Comune di nascita" required>
+					<div class="invalid-feedback">
+						Inserisci una città valida.
+					</div>
+				</div>	
+				<div class="col-md-1">
+					<label for="ProvinciaN">Provincia
+					</label>
+					<select class="form-control" id="ProvinciaN" required="true">
+      <?php include ('Province.php'); ?>
+    </select>
+				</div>
+				<div class="col-md-2">
+					<label for="validationCustom04">Cittadinanza
+					</label>
+					<input type="text" class="form-control" id="validationCustom04" placeholder="Cittadinanza" required>
+					<div class="invalid-feedback">
+						dato non valido
+					</div>
+				</div>
+				<div class="col-md-1">
+					<label for="Asl">Asl res.
+					</label>
+					<input type="number" class="form-control" id="asl" placeholder="asl" required>
+					<div class="invalid-feedback">
+						dato non valido
+					</div>
+				</div>	
+				</div>
+					<div class="form-row justify-content-md-center">
+					<div class="col-md-2">
+						<label for="provenienza" class=" control-label">
+							Provenienza paziente
+						</label>
+						<input type="text" id="Provenienza" class="form-control" required>
+					</div>
 					<div class="col-md-2">
 						<label for="RicoDate" class=" control-label">
 							Data di Ricovero
 						</label>
 						<input type="date" id="RicoDate" class="form-control" required>
 					</div>
-					<div class="col-md-2">
-						<label for="DimDate" class=" control-label">
-							Data di Dimissione
-						</label>
-						<input type="date" id="DimDate" class="form-control" required>
+					<div class="form-group col-md-2">
+						<label for="tiporicovero">Tipo ricovero</label>
+						<select class="form-control" id="tiporicovero" required>
+							<?php include ('ricovero.php') ?>
+						</select>
 					</div>
 					<div class=col-md-2>
 						<label for="inputBirthWeigth">Peso alla nascita (gr)</label>
@@ -110,20 +146,37 @@
 				</div>
 				<div class="form-row justify-content-md-center">
 					<div class="form-group col-md-2">
-						<label for="inputSDO">N# SDO</label>
+						<label for="inputSDO">N# SDO (9numeri)</label>
 						<input type="text" pattern="[0-9]{9}" class="form-control" id="inputSDO" placeholder="Numero SDO" required>
 					</div>
-
-
-
-
-
-					<div class="form-group col-md-6">
+					<div class="col-md-2">
+						<label for="DimDate" class=" control-label">
+							Data di Dimissione
+						</label>
+						<input type="date" id="DimDate" class="form-control" required>
+					</div>
+					<div class="form-group col-md-2">
 						<label for="SDOlist">Motivo dimissione</label>
-						<select class="form-control" id="SDOlist" required="true">
+						<select class="form-control" id="SDOlist" required>
 							<?php include ('SDOlist.php') ?>
 						</select>
 					</div>
+					
+					<div class="form-group col-md-2">
+						<label for="onere">Onere degenza</label>
+						<select class="form-control" id="onere" required>
+							<?php include ('onere.php') ?>
+						</select>
+					</div>
+				</div>
+				<div class="form-row justify-content-md-center">
+					
+
+
+
+
+
+					
 				</div>
 
 				<div class="form-row justify-content-md-center"> 

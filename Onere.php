@@ -1,0 +1,11 @@
+<option value="" selected disabled>scegli...</option>
+<option value="1">Ricovero a totale carico del S SN</option>
+<option value="2">Ricovero a prevalente carico del SSN, con parte delle spese a carico del paziente</option>
+<option value="3">Ricovero con successivo rimborso (totale o parziale) a carico del SSN</option>
+<option value="4">Ricovero senza oneri per il SSN</option>
+<option value="5">Ricovero, a prevalente carico del SSN, con parte delle spese a carico del paziente (libera professione)</option>
+<option value="6">Ricovero a prevalente carico del SSN, con parte delle spese a carico del paziente (libera professione e differenza alberghiera);</option>
+<option value="7">Ricovero a carico del SSN di pazienti stranieri provenienti da Paesi U.E., SEE, Svizzera e Paesi convenzionati, in possesso degli attestati di diritto che consentono l'iscrizione al SSN</option>
+<option value="8">Ricovero a carico del S SN di pazienti stranieri con dichiarazione di indigenza e per gli stranieri temporaneamente presenti con codice sanitario STP</option>
+<option value="9">Ricovero a rimborso del Ministero dell'Interno di pazienti regolarmente soggiornanti che non corrispondono l'onere delle prestazioni in urgenza</option>
+<option value="10">Altro (ad esempio prestazioni richieste da altri enti come INAIL ai quali fatturare l'onere)</option>
