@@ -188,12 +188,13 @@
 			</div>
 		</div>
 	</div>
-	
+
 
 
 				
 		<div class="container col-md-8 justify-content-md-center mt-3">
-			<div class="form-row justify-content-center"> <button type="submit" class="btn btn-primary btn-lg btn-block">Procedi con il DRG</button></div>
+			<div class="form-row justify-content-center"> <button type="submit" class="btn btn-primary btn-lg btn-block">Procedi con il DRG</button>
+			</div>
 		</div>
 
 	</form>
