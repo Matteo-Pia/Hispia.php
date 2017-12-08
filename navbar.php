@@ -14,17 +14,18 @@
         </button>
       </div>
       <div class="modal-body">
-      Questo sito raffigura un prototipo di <a href="https://it.wikipedia.org/wiki/Hospital_Information_System">Sistema Informativo Ospedaliero</a>, interattivo e multiutente, utilizzabile sia dai pazienti che dagli operatori sanitari. <br><br>
-      È stato creato nel mese di novembre 2017 come progetto individuale per il corso di informatica, tenuto dal <a href="https://unica.it/unica/it/ateneo_s07_ss01_sss02.page?mu=Guide/PaginaDocente.do;jsessionid=BCF8084F0690F389DA7CF18516AA36F4.jvm1?docente_id=47738&ANNO_ACCADEMICO=2017&mostra_percorsi=S">Prof. Pierro Antonio</a>, all'interno del Corso di Laurea in Tecniche di Radiologia Medica, per Immagini e Radioterapia presso l'Università di Cagliari, dallo studente <a href="mailto:matteo.pia@outlook.com">Pia Matteo</a>.<br><br>
-      Per la codifica html, CSS e javascript sono stati utilizzati i modelli resi disponibili gratuitamente da <a href="https://getbootstrap.com/">Bootstrap</a>.<br><br>
-      La grafica è stata realizzata utilizzando immagini con licenza Creative Commons; in particolare le icone sono state scaricate dal sito <a href="https://www.flaticon.com/">flaticon.com</a> e sono di proprietà dei relativi autori. <br><br>
+      Questo sito raffigura un prototipo di <a href="https://it.wikipedia.org/wiki/Hospital_Information_System" target="_blank">Sistema Informativo Ospedaliero</a>, interattivo e multiutente, utilizzabile sia dai pazienti che dagli operatori sanitari. <br><br>
+      È stato creato nel mese di novembre 2017 come progetto individuale per il corso di informatica, tenuto dal <a href="https://unica.it/unica/it/ateneo_s07_ss01_sss02.page?mu=Guide/PaginaDocente.do;jsessionid=BCF8084F0690F389DA7CF18516AA36F4.jvm1?docente_id=47738&ANNO_ACCADEMICO=2017&mostra_percorsi=S" target="_blank">Prof. Pierro Antonio</a>, all'interno del Corso di Laurea in Tecniche di Radiologia Medica, per Immagini e Radioterapia presso l'Università di Cagliari, dallo studente <a href="mailto:matteo.pia@outlook.com">Pia Matteo</a>.<br><br>
+      Per la codifica html, CSS e javascript sono stati utilizzati i modelli resi disponibili gratuitamente da <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a>.<br><br>
+      La grafica è stata realizzata utilizzando immagini con licenza Creative Commons; in particolare le icone sono state scaricate dal sito <a href="https://www.flaticon.com/" target="_blank">flaticon.com</a> e sono di proprietà dei relativi autori. <br><br>
 
       Altri strumenti e servizi utilizzati:<br>
-      <a href="https://www.sublimetext.com/">Sublime Text 3</a><br>
-      <a href="https://github.com/">github.com</a><br>
-      <a href="https://www.apachefriends.org/it/index.html">XAMPP</a><br>
-      <a href="https://www.gearhost.com/">gearhost.com</a><br>
-      <a href="http://www.freenom.com/it/index.html">freenom.com</a><br><br>
+      <a href="https://www.sublimetext.com/" target="_blank">Sublime Text 3</a><br>
+      <a href="https://github.com/" target="_blank">github.com</a><br>
+      <a href="https://www.apachefriends.org/it/index.html" target="_blank">XAMPP</a><br>
+      <a href="https://www.gearhost.com/" target="_blank">gearhost.com</a><br>
+      <a href="http://www.freenom.com/it/index.html" target="_blank">freenom.com</a><br>
+      <a href="https://www.jqueryscript.net/form/Dynamic-Form-Element-Creation-And-Deletion-Plugin-Addel.html" target="_blank">addel (script)</a><br>
 
 
       </div>

@@ -156,7 +156,7 @@
 						<input type="date" id="DimDate" class="form-control" required>
 					</div>
 					<div class="form-group col-md-2">
-						<label for="SDOlist">Motivo dimissione</label>
+						<label for="SDOlist">Tipo dimissione</label>
 						<select class="form-control" id="SDOlist" required>
 							<?php include ('SDOlist.php') ?>
 						</select>
@@ -254,6 +254,6 @@
 			</form>
 		</div>
 			</div>	
-	</div>	<?php include('script.php'); ?>
+	
 </body>
 </html>
