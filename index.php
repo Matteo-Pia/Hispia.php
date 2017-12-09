@@ -35,7 +35,7 @@
 								<tr>
 									<td STYle="width:70%">
 										<H3>CUP</H3>
-										<p class="tt2">Se vuoi prenotare un esame o visualizzare le liste d'attesa aggiornate vai al centro unico di prenotazione</p>
+										<p class="tt2">Se vuoi prenotare un esame o visualizzare le liste d'attesa aggiornate vai al CUP</p>
 									</td>
 									<td STYle="width:30%"><img src="images/cup.png"></td>
 								</tr>
@@ -71,7 +71,7 @@
 								<tr>
 									<td STYle="width:70%">
 										<H3>RIS</H3>
-										<p class="tt2">Qui potrai visualizzare la tua storia radiologica, le immagini degli esami effettuati, i referti, i record di dose</p>
+										<p class="tt2">Questa sezione è dedicata alla prenotazione e gestione degli esami radiologici</p>
 									</td>
 									<td STYle="width:30%"><img src="images/RIS.png"></td>
 								</tr>
@@ -89,7 +89,7 @@
 								<tr>
 									<td STYle="width:70%">
 										<H3>Prep</H3>
-										<p class="tt2">Questa sezione è dedicata alla preparazione richiesta per i pazienti in vista di determinati esami.</p>
+										<p class="tt2">Qui troverai le informazioni utili per i pazienti in vista di determinati esami.</p>
 									</td>
 									<td STYle="width:30%"><img src="images/Prep.png"></td>
 								</tr>
@@ -126,7 +126,7 @@
 								<tr>
 									<td STYle="width:70%">
 										<H3>DRG</H3>
-										<p class=tt2>Strumento che permette di eseguire il raggruppamento dei pazienti per diagnosi e percorso clinico. </p>
+										<p class=tt2>Strumento per il raggruppamento dei pazienti per diagnosi e percorso clinico. </p>
 									</td>
 									<td STYle="width:30%"><img src="images/drg.png"></td>
 								</tr>
@@ -144,7 +144,7 @@
 								<tr>
 									<td STYle="width:70%">
 										<H3>FAQ</H3>
-										<p class="tt2">Qui potrai trovare le risposte alle domande più frequenti e trovare da solo la soluzione ai tuoi problemi di navigazione</p>
+										<p class="tt2">Le domande più frequenti poste dagli utenti del sito con le nostre risposte</p>
 									</td>
 									<td STYle="width:30%"><img src="images/FAQ.png"></td>
 								</tr>
@@ -162,7 +162,7 @@
 								<tr>
 									<td STYle="width:70%">
 										<H3>Contatti</H3>
-										<p class="tt2">Se riscontri dei problemi o hai delle domande da porci usa il modulo che trovi in questa pagina</p>
+										<p class="tt2">Per problemi e domande usa il modulo che trovi in questa pagina</p>
 									</td>
 									<td STYle="width:30%"><img src="images/Contatti.png"></td>
 								</tr>
