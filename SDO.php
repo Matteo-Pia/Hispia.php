@@ -112,9 +112,9 @@
 					</div>
 				</div>
 				<div class="col-md-1">
-					<label for="Asl">Asl res.
+					<label for="Asl">ASL res.
 					</label>
-					<input type="number" class="form-control" id="asl" placeholder="asl" required>
+					<input type="number" class="form-control" id="asl" placeholder="ASL residenza" required>
 					<div class="invalid-feedback">
 						dato non valido
 					</div>

@@ -5,4 +5,6 @@
 	<link rel="stylesheet" type="text/css" href="css\bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css\style.css">
 	<link rel="stylesheet" type="text/css" href="css\jquery.multiselect.css">
+	<link rel="stylesheet" type="text/css" href="css\sol.css" >
+
 </head>
