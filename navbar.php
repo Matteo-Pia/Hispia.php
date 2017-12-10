@@ -27,6 +27,7 @@
       <a href="http://www.freenom.com/it/index.html" target="_blank">freenom.com</a><br>
       <a href="https://www.jqueryscript.net/form/Dynamic-Form-Element-Creation-And-Deletion-Plugin-Addel.html" target="_blank">addel (script)</a><br>
       <a href="https://www.jqueryscript.net/form/jQuery-Plugin-For-Seachable-Option-List-with-Checkboxes.html" target="_blank">Sol (script)</a>
+      <a href="https://github.com/heavybeard/codice-fiscale">codice-fiscale (script)</a>
 
 
       </div>
